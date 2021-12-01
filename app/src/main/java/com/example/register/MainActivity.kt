@@ -42,10 +42,10 @@ class MainActivity : AppCompatActivity() {
 
 
             if (email.isEmpty() || password.isEmpty() || password1.isEmpty()
-                || password1 != password ||password.length <9 || !password.contains("[0-9]".toRegex()) || !password1.contains(
-                    "[0-9]".toRegex()
-                )
-            ) {
+                || password1 != password ||password.length <9 || !password.contains("[0-9]".toRegex()))
+                  
+               
+             {
                 Toast.makeText(this, "გთხოვთ შეიყვანეთ პაროლი და E-mail !", Toast.LENGTH_SHORT)
                     .show()
                 return@setOnClickListener
