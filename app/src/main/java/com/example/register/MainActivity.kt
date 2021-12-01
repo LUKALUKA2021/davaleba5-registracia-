@@ -46,18 +46,18 @@ class MainActivity : AppCompatActivity() {
                     "[0-9]".toRegex()
                 )
             ) {
-                Toast.makeText(this, "გთხოვთ სწორად შეიყვანოთ ან გაიმეოროთ პაროლი!", Toast.LENGTH_SHORT)
+                Toast.makeText(this, "გთხოვთ შეიყვანეთ პაროლი და E-mail !", Toast.LENGTH_SHORT)
                     .show()
                 return@setOnClickListener
             }
             FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful) {
-                        Toast.makeText(this, "რეგისტრაცია წარმატებით გაიარეთ!", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "რეგისტრაცია წარმატებით გაიარეთ !", Toast.LENGTH_SHORT).show()
 
                     }
                     else
-                        Toast.makeText(this, "გთხოვთ შეიყვანოთ სწორი E-mail!", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "გთხოვთ შეიყვანოთ სწორი E-mail !", Toast.LENGTH_SHORT).show()
 
                 }
 
