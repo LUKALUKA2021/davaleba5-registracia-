@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "805022426795",
+    "project_id": "luka-davaleba5",
+    "storage_bucket": "luka-davaleba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805022426795:android:3f66460e90c264711cb9ee",
+        "android_client_info": {
+          "package_name": "com.example.register"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805022426795-h5n16feb8t8frc00losi7cs57qro0e61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTql-qwWa6YN84hEVqc_AOWSuw4p40BS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805022426795-h5n16feb8t8frc00losi7cs57qro0e61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
