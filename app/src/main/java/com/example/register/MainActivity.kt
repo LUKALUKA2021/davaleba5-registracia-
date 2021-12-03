@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
 
             if (email.isEmpty() || password.isEmpty() || password1.isEmpty()
-                || password1 != password ||password.length <9 || !password.contains("[0-9]".toRegex()))
+                || password1 != password ||password.length <9 || !password.contains("[0-9]".toRegex()) || !password.contains("[a-z]".toRegex()))
                   
                
              {
